@@ -1,5 +1,44 @@
-.block{
-    height: 300px;
-    width: 300px;
-    background-color: aqua;
+body{
+    margin:0;
+}
+
+.offset{
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 100px 1340px;
+}
+
+.head{
+    background-color: #17139C;
+    text-align: center;
+}
+
+.head .img{
+    margin: 16px 34px 0 46px;
+}
+
+.logo{
+    margin-top: 16px;
+    margin-bottom: 40px;
+}
+
+.head a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 12px;
+    color: #fff;
+}
+
+.mr{
+    padding-bottom: 457px;
+}
+
+.head_int{
+    display: grid;
+    grid-template-rows: 72px;
 }
