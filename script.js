@@ -6,6 +6,7 @@ $(document).ready(function () {
         loop: true,
         nav: false,
         dots: true,
+        margin:8,
     });
 
     $('.arrow.prev').on('click', function () {

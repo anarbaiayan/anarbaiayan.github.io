@@ -378,16 +378,17 @@ a{
     src: url('fonts/Jost500Medium.otf') format('otf');
 }
 
+.carousel-inner img{
+    height: 580px;
+    margin-left: 8px;
+}
+
 .j_img img{
     margin-left: 8px;
 }
 
-.carousel-inner img{
-    height: 500px;
-}
-
 .carousel{
-    max-width: 1024px;
+    max-width: 1580px;
     margin:0 auto;   
 }
 
@@ -400,15 +401,11 @@ a{
     transform: rotate(180deg);
 }
 
-.arrow{
-    /* position: absolute; */
-}
-
 .about_carousel{
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .owl-carousel {
-    max-width: 1024px;
+    max-width: 1580px;
 }
