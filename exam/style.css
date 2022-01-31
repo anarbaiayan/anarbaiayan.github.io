@@ -986,6 +986,10 @@ p{
     display: none !important;
 }
 
+.project_title_img_poppins_dub{
+    display: none;
+}
+
 @media(max-width:1420px){
     .about_link_left{
         display: none;
@@ -1177,5 +1181,268 @@ p{
 
     .about_title_content {
         margin: 0;
+    }
+}
+
+
+
+
+.project_offset{
+    max-width: 1156px;
+    margin: 0 auto;
+}
+
+.project_web_p{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #A0A0A1;
+    margin-top: 49px;
+}
+
+.project_title_img_p{
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 71px;
+    color: #F9B53A;
+    margin-bottom: 64px;
+}
+
+.project_title_img{
+    margin-top: 24px;
+}
+
+.project_title_img_poppins{
+    border-radius: 8px;
+}
+
+.project_title_text_p{
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 57px;
+    color: #F9B53A;
+    margin-bottom: 16px;
+}
+
+.project_title_text_text{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #fff;
+}
+
+.project_title_text{
+    margin-top: 128px;
+}
+
+.project_title_fonts{
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 40px;
+    color: #F9B53A;
+    margin-bottom: 18px;
+}
+
+.project_text_fonts{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #fff;
+    margin-bottom: 24px;
+}
+
+.project_title_text_img_fonts{
+    margin-top: 128px;
+}
+
+.project_text_fonts a{
+    color: #fff;
+    border-bottom: solid 1px white;
+}
+
+.project_title_text_colors{
+    margin-top: 128px;
+}
+
+.project_title_colors{
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 40px;
+    color: #F9B53A;
+    margin-bottom: 18px;
+}
+
+.project_text_colors{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #fff;
+    margin-bottom: 24px;
+}
+
+.project_img_logo_colors{
+    margin-bottom: 24px;
+}
+
+.projects_title_text_img_end{
+    margin-top: 128px;
+}
+
+.projects_title_end{
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 40px;
+    color: #F9B53A;
+}
+
+.projects_text_end{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #fff;
+    margin-top: 18px;
+    margin-bottom: 24px;
+}
+
+.project_end{
+    margin-top: 127px;
+}
+
+.project_img_fonts_dub{
+    display: none;
+}
+
+.project_img_colors_dub{
+    display: none;
+}
+
+.project_img_logo_colors_dub{
+    display: none;
+}
+
+.projects_img_end_dub{
+    display: none;
+}
+
+@media(max-width:1420px){
+    .project_title_img_poppins_dub{
+        display: block;
+    }
+
+    .project_title_img_poppins{
+        display: none;
+    }
+
+    .project_web_p{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        max-width: 229px;
+        margin: 0;
+        margin-bottom: 24px;
+    }
+
+    .project_title_img_p{
+        font-weight: 500;
+        font-size: 34px;
+        line-height: 40px;
+        margin: 0;
+        margin-bottom: 32px;
+    }
+
+    .project_title_img{
+        max-width: 328px;
+        margin: 32px auto 0;
+    }
+
+    .project_head {
+        display: flex !important;
+        align-items: center;
+    }
+
+    .project_title_text {
+        max-width: 328px;
+        margin: 0;
+        margin: 64px auto 0;
+    }
+
+    .project_title_text_p{
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .project_title_text_text{
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .project_title_text_img_fonts {
+        max-width: 328px;
+        margin: 0;
+        margin: 32px auto 0;
+    }
+
+    .project_img_fonts_dub{
+        display: block;
+    }
+
+    .project_img_fonts{
+        display: none;
+    }
+
+    .project_img_logo_colors{
+        display: none;
+    }
+
+    .project_img_colors{
+        display: none;
+    }
+
+    .project_img_logo_colors_dub{
+        display: block;
+    }
+
+    .project_img_colors_dub{
+        display: block;
+        margin-top: 24px;
+    }
+
+    .project_title_text_colors {
+        max-width: 328px;
+        margin: 0;
+        margin: 32px auto 0;
+    }
+
+    .project_title_colors{
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .project_text_colors{
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .projects_img_end_dub{
+        display: block;
+    }
+
+    .projects_img_end{
+        display: none;
+    }
+
+    .projects_title_text_img_end{
+        max-width: 328px;
+        margin: 0;
+        margin: 32px auto 0;
+    }
+
+    .project_end{
+        margin: 0;
+        margin-top: 84px;
     }
 }
